@@ -1,0 +1,41 @@
+{
+  "name": "genpark-sparkpage-synthesis-engine-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Dynamic search synthesis and Sparkpage layout compiler generating multi-attribute comparison matrices, pros/cons, and embeddable UI blocks.",
+  "homepage": "https://genpark.ai/mcp",
+  "author": "alphaparkinc",
+  "category": "search-synthesis",
+  "tags": [
+    "sparkpages",
+    "search-synthesis",
+    "comparison-matrix",
+    "product-ranking",
+    "html-generator"
+  ],
+  "inputs": {
+    "entities": {
+      "type": "array",
+      "description": "List of entities/products to compare with price, specs, rating"
+    },
+    "ranking_weights": {
+      "type": "object",
+      "description": "Weights for price, rating, and feature richness"
+    }
+  },
+  "outputs": {
+    "winner_name": {
+      "type": "string"
+    },
+    "winner_score": {
+      "type": "number"
+    },
+    "comparison_table_markdown": {
+      "type": "string"
+    },
+    "html_embed_snippet": {
+      "type": "string"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
