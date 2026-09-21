@@ -1,4 +1,4 @@
-# genpark-sparkpage-synthesis-engine-skill
+# genpark-page-synthesis-engine-skill
 
 <div align="center">
 
@@ -20,9 +20,9 @@
 
 ## 📌 Overview & Capability
 
-**genpark-sparkpage-synthesis-engine-skill** is a deterministic, zero-dependency Python skill engineered with 100% functional parity for autonomous AI search synthesis, multi-model execution, and agentic workflows.
+**genpark-page-synthesis-engine-skill** is a deterministic, zero-dependency Python skill engineered with 100% functional parity for autonomous AI search synthesis, multi-model execution, and agentic workflows.
 
-> **Executive Capability**: Dynamic search synthesis and Sparkpage layout compiler generating comparison matrices & HTML UI
+> **Executive Capability**: Dynamic search synthesis and Page layout compiler generating comparison matrices & HTML UI
 
 ### ⚡ Key Highlights & Value
 * 🐍 **Zero External `pip` Dependencies**: Runs instantly on standard Python 3.9+ with zero environment bloat.
@@ -54,9 +54,9 @@ python example_usage.py
 
 ### 2. Programmatic Integration
 ```python
-from client import SparkpageSynthesisEngineClient
+from client import PageSynthesisEngineClient
 
-client = SparkpageSynthesisEngineClient()
+client = PageSynthesisEngineClient()
 result = client.synthesize_page()
 print(result)
 ```
@@ -71,9 +71,9 @@ Connect this skill to **Claude Desktop**, **Cursor**, or any MCP-compliant clien
 ```json
 {
   "mcpServers": {
-    "genpark-sparkpage-synthesis-engine-skill": {
+    "genpark-page-synthesis-engine-skill": {
       "command": "python",
-      "args": ["/path/to/genpark-sparkpage-synthesis-engine-skill/mcp_server.py"]
+      "args": ["/path/to/genpark-page-synthesis-engine-skill/mcp_server.py"]
     }
   }
 }
