@@ -1,7 +1,7 @@
 import json
 from typing import List, Dict, Any, Optional
 
-class SparkpageSynthesisEngineClient:
+class PageSynthesisEngineClient:
     """
     Production-grade dynamic search synthesis and comparison engine.
     Computes mathematical rankings and builds structured Markdown & HTML blocks.
@@ -68,7 +68,7 @@ class SparkpageSynthesisEngineClient:
         # Build HTML summary card
         html_snippet = f"""<div class="p-6 bg-slate-900 border border-slate-700 rounded-xl text-white">
   <div class="flex items-center justify-between mb-4">
-    <h3 class="text-xl font-bold">Sparkpage Recommendation: {winner['name']}</h3>
+    <h3 class="text-xl font-bold">Page Recommendation: {winner['name']}</h3>
     <span class="px-3 py-1 bg-emerald-500 text-white rounded-full text-sm font-semibold">{winner['composite_score']} / 10.0</span>
   </div>
   <p class="text-slate-300 mb-4">Ranked #1 out of {len(scored)} products based on mathematical price-to-performance weighting.</p>
