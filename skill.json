@@ -1,12 +1,12 @@
 {
-  "name": "genpark-sparkpage-synthesis-engine-skill",
+  "name": "genpark-page-synthesis-engine-skill",
   "version": "1.0.0",
-  "description": "GenPark AI Agent Skill - Dynamic search synthesis and Sparkpage layout compiler generating multi-attribute comparison matrices, pros/cons, and embeddable UI blocks.",
+  "description": "GenPark AI Agent Skill - Dynamic search synthesis and Page layout compiler generating multi-attribute comparison matrices, pros/cons, and embeddable UI blocks.",
   "homepage": "https://genpark.ai/mcp",
   "author": "alphaparkinc",
   "category": "search-synthesis",
   "tags": [
-    "sparkpages",
+    "pages",
     "search-synthesis",
     "comparison-matrix",
     "product-ranking",
